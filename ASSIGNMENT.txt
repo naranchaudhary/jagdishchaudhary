@@ -1,0 +1,341 @@
+Web Designing Assignment
+Term-1
+Module (HTML)
+-------------------
+--------------
+
+1. Are the html tags and elements the same thing?
+Ans:No,html tags and elements are not the same thing.
+ tags and content combination
+ ex.  <p></p>(tags>
+ex. <p>hello word</p>(element)
+-------------
+
+2. what are tags and attributes in html?.
+ANS: Both the tags and attributes are within an element. While the elements tell the browser what to display, the attributes define how they will behave.
+
+ex : Tags - <h1> Header </h1> (Browser will display the Header text.)
+
+ex : Attributes - <h1 style="color : red;"> Header </h1> (Browser will display the header text, and here style is attribute which tell the browser to display Header in red color. )
+Addition information add
+
+------------
+3.what are void elements in html ?  with example.
+Ans:a void element must not have an and tag.
+ex <br>  <input>
+   <hr>  <link>
+   <img>  
+   <meta>
+---------
+4. what are html entites? with example.
+Ans:entity names or entity numbers can be used to display reserved html characters.
+ex.
+  pound &pound;
+  copyright &copy;
+  euro   &euro;
+
+
+----------
+
+5. what are diffrent types of lists in html ? with example.
+Ans:there are three types in list
+    1.unorderlist
+    2.orderlist
+    3.description list
+ex.unorderlist
+   <ul type="circle">
+     <li>one</li>
+   orderlist
+  <ol type="I">
+   <li>one</li>
+ description list
+<dl>
+ <dt>tea</dt>
+  <dd>hot<dd>
+
+------------
+
+6. what is the 'class' attribute in html ? with example.
+Ans:The class attribute specifies one or more classnames for an element.The class attribute is mostly used to point to a class in a style sheet.
+ex: <p class="Para">Paragraph</p> (Here class "Para" will apply styles to Paragraph element according to the attributes and values given in the class, here class is written as .Para).
+
+ex : <p class="Para Para1">Paragraph</p> (You can also apply multiple classes to the single element by giving the space after first class name and then write the second class name).
+ 
+
+-------------
+
+
+7. what is the diffrence between thr 'id' attribute and the 'class' attribute of the html 
+   elements. with example.
+Ans:A class name can be used by multiple html elements, while an id name must only be used by 
+   one html element whthin the page.
+ex : <p id="Para"></p>(Here we can apply styles to this element by giving attributes and values to the id, id can be written as #Para).
+
+Note : for selecting id we use #id name and for selecting class we use .class name.
+  
+--------
+8. what are the various formatting tags in html?
+Ans:html contains several elements for defining text with a special meaning.
+ex.
+<b> bold text
+<strong> importent text
+<i> italic text
+<mark> marked text
+
+---------
+9. how is cell padding diffrent tags in html ?.
+Ans:cellpadding defines the space present between a table cell's border and the content 
+ present in it.Cellspacing basically defines the space present between individual adjacent cells.
+ex:<table border="1" cellspacing="0" cellpadding="2">
+
+----------
+10. hOw can we club two or more rows or colums into a single row or colums in an html table?
+    with example.
+Ans:using the colspan attribute and rowspan attribute in a<td> html tag.
+  ex: <tr rowspan="7">days</tr> (These will combine 7 rows).
+
+   ex : <td colspan="7">days</td> (These will combine 7 columns).
+
+    
+---------------
+11. whatis the diffrence between a block-lavel element and an inline element?
+
+Ans:block-leval elements they do not begin on new lines and inline elements occupy the space
+    as needed within the space defined by the main element.
+    
+ex 1.block-leval element
+   <p>hello</p>paragraph
+   <div>hello</div>sections or division
+   
+2. inline element
+     <a>
+     <input>
+     <lable>
+     <sup>
+     <sup>
+
+---------------
+12.  how to create a hyperlink in html?
+Ans:TO make a hyperlink in an html page, use the <a>and</a>tags, which are the tags used to 
+    define the links. the <a>tag indicates where the hyperlik starts and the </a> tag indicates 
+    where it ends. whatever text gets added inside these tags, will work as a hyperlink add the 
+    url for the link in the 
+ex:<a href="https://www.google.co.in/">Google</a>
+
+---------------
+13. what is the use of an iframe tag? explain the example.
+Ans:iframe tag is used to embed another document within the current html document.
+
+ex. <iframe src="https://www.google.co.in/" title="Google"></iframe>
+----------------
+14. what is the use of span tag? explain with example.
+ANS:The span tag is an inline container used to color a part of a text, or a part of a document.
+ex :-<p> Rajasthan is the <span style="color:blue"> largest </span> state in india. </p>
+---------------
+15. how are active links diffrent form normal links.
+Ans:A normal link is just a line of code that contains a pointer to another resource. An active
+   link is that line of code in action, opening that other resource.
+---------------
+16 how to insert a picture into a background image of a webpage? with example.
+Ans: we can use the background attribute in the body tag to set an image as the background 
+     of the webpage.
+
+ex:-<body background="image.jpg"> </body> (We can use image url as well in place of the image path).
+---------------
+17. what are the diffrent tags to seprate sections of text?
+Ans:<b>tag it is used to separate the line of text.it breaks the current line and shifts the 
+    flow of the text to a new line.
+    <p> tag this tag is used to write a paragraph of text.
+--------------    
+
+18. what is SVG?
+Ans:svg stands for scalable vector graphics.
+    svg is used to define graphics for the web.
+ex:<svg width="100" height="100">
+       	<circle cx="30" cy="40" r="40" stroke="green" fill="yellow" />
+       </svg>
+--------------
+19.what is diffrence between Html and XHtml?
+Ans:html(hyper text markup language) and xhtml(extensible hypertext markup language) are both
+    markup languages used for creating and displaying web pages.
+    The main diffrence between them is the syntax and structure, html is more lenient in 
+    its syntex,, while xhtml has a more strict syntax and follows xml rules.
+------------
+
+20. what are logical and phygical tags in Html?
+Ans:Physical tag : These tags are used to provide the visual appearance to the text. (ex : <b>, <i>).
+         Logical tag : These tags are used to add some logical or semantic value to the text. (ex: <strong> , <em>).
+
+21.CREATE BELOW EXAMPLE USING HTML ONLY WITHOUT CSS ?
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment Task</title>
+  </head>
+  <body>
+    <table border="1" cellspacing="0" align="center" width="1000px">
+      <tr>
+        <td align="center" rowspan="2"><a href="">Home</a></td>
+        <td align="center" rowspan="2"><a href="">About</a></td>
+        <td align="center" rowspan="2"><a href="">Contact</a></td>
+        <td align="center" rowspan="2"><a href="">Help</a></td>
+        <td align="center" rowspan="2"><a href="">Store</a></td>
+        <td align="center" bgcolor="red"><a href="">Download</a></td>
+      </tr>
+      <tr>
+        <td align="center" bgcolor="red">App</td>
+      </tr>
+      <tr>
+        <td colspan="6">
+          <img src="D:\JAGDISH\img\img1.JPG" alt="" height="300px" width="100%" />
+        </td>
+      </tr>
+      <tr>
+        <td
+          style="background-color:rgb(240, 19, 159) "
+          align="center"
+          colspan="6"
+        >
+          Contact-Us-Page
+        </td>
+      </tr>
+      <tr>
+        <td
+          colspan="6"
+          align="center"
+          style="background-image: url(/JAGDISH/img/istockphoto.jpg)"height="200PX">
+           <h1 style= "color:white">Contact Us</h1>
+        </td>
+      </tr>
+      <tr>
+        <td bgcolor="skyblue" colspan="3" align="center">
+          <form action="">
+            <label for="">First-name</label>
+            <input type="text" placeholder="Enter your name" />
+          </form>
+        </td>
+        <td bgcolor="skyblue" colspan="3" align="center">
+          <form action="">
+            <label for="">Last-name</label>
+            <input type="text" placeholder="Enter your name" />
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td bgcolor="skyblue" colspan="3" align="center">
+          <form action="">
+            <label for="">Email-id</label>
+            <input type="email" placeholder="Enter your email id" />
+          </form>
+        </td>
+        <td bgcolor="skyblue" colspan="3" align="center">
+          <form action="">
+            <label for="">Phone-no</label>
+            <input type="text" placeholder="Enter your phone no." />
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td bgcolor="skyblue" colspan="3" align="center">
+          <form action="">
+            <label for="">City</label>
+            <select>
+              <option value="ahmedabad">Ahmedabad</option>
+              <option value="gandhinagar">Gandhinagar</option>
+              <option value="surat">Surat</option>
+              <option value="rajkot">Rajkot</option>
+            </select>
+          </form>
+        </td>
+        <td bgcolor="skyblue" colspan="3" align="center">
+          <form action="">
+            <label for="">Gender</label>
+            Male<input type="radio" name="gender" /> Female<input
+              type="radio"
+              name="gender"
+            />
+            Other<input type="radio" value="name" />
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117499.61506478042!2d72.36468644335937!3d23.028803000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b767b0a48ed%3A0x713f82e619ac7868!2sTOPS%20Technologies!5e0!3m2!1sen!2sin!4v1703827944491!5m2!1sen!2sin"
+            width="500"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </td>
+        <td colspan="3">
+          <video width="500" height="300" controls>
+            <source
+              src="D:\JAGDISH\video\Free_gaming).mp4"
+              type="video/mp4"/>
+            
+          </video>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+ 
+
+Module (HTML5) 
+
+----------------------
+
+1) What are the new tags added in HTML5?
+
+Ans - Some widely used HTML 5 tags are stated below :
+
+        <article>            <nav>             <audio>
+        <aside>             <section>        <video>
+        <figcaption>      <embed>
+        <footer>            <canvas>
+        <header>           <svg>
+
+----------------
+
+2) How to embed audio and video in a webpage?
+
+Ans - Audio tag : <audio src="./test.mp3" controls autoplay></audio>
+         Video tag : <video src="./test.mp4" controls autoplay></video>
+
+----------------
+
+3) Semantic element in HTML5?
+
+Ans - Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way.
+
+ex : <form>, <header>,<footer>,<section> ,<nav>,<aside> 
+
+----------------
+
+4) Canvas and SVG tags
+
+Canvas tag : Script is needed in canvas.
+
+<canvas id="mycanvas"></canvas>
+    <script>
+        var cnv = document.getElementById("mycanvas");
+        var cnb = cnv.getContext("2d")
+        cnb.fillStyle = 'green';
+        cnb.fillRect(50,10,500,500);
+    </script>
+
+SVG tag : Script is not needed for SVG.
+
+<svg viewBox="10 10 200 100" fill="gray" stroke="green">
+        <circle cx="40" cy="40" r="30"></circle>
+</svg>
+
+
+
+
+
